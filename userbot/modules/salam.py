@@ -12,20 +12,20 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hallo Semua Saya {DEFAULTUSER}**")
+    await typew.edit(f"** Moshi-Moshi Hallo Semua Saya {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`Assalamualaikum.....`")
-# Owner @Si_Dian
+    await typew.edit("`**𝙋**`")
+# Owner @@AnimeChating
 
 
 @register(outgoing=True, pattern='^p(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Hallo Semua Saya {DEFAULTUSER}**")
+    await typew.edit(f"** Moshi-Moshi Hallo Semua Saya {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`Assalamualaikum.....`")
-# Owner @Si_Dian
+    await typew.edit("`**𝙋**`")
+# Owner @@AnimeChating
 
 
 @register(outgoing=True, pattern='^L(?: |$)(.*)')
@@ -35,7 +35,7 @@ async def typewriter(typew):
     await typew.edit("`Astaghfirulloh Jawab Salam Dong...`")
     sleep(1)
     await typew.edit("`Waallaikumsalam......`")
-# Owner @Si_Dian
+# Owner @@AnimeChating-
 
 
 @register(outgoing=True, pattern='^l(?: |$)(.*)')
@@ -45,7 +45,7 @@ async def typewriter(typew):
     await typew.edit("`Astaghfirulloh Jawab Salam Dong...`")
     sleep(1)
     await typew.edit("`Waallaikumsalam.....`")
-# Owner @Si_Dian
+# Owner @@AnimeChating
 
 
 CMD_HELP.update({
