@@ -27,7 +27,7 @@ for module_name in ALL_MODULES:
 
 
 LOGS.info(
-    f"🔥 XBOT-REMIX 🔥 V{BOT_VER} [SUCCESSFUL ACTIVATED! ⚙️]")
+    f"X-Lua BotV{BOT_VER} [SUCCESSFUL ACTIVATED! ⚙️]")
 
 
 if len(argv) not in (1, 3, 4):

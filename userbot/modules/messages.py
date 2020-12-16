@@ -33,13 +33,13 @@ async def fastpurger(purg):
     if msgs:
         await purg.client.delete_messages(chat, msgs)
     done = await purg.client.send_message(
-        purg.chat_id, f"`Berhasil Menghapus Kenangan!`\
-        \nSebanyak: {str(count)} Kenangan😭")
+        purg.chat_id, f"`Succes ._.)!`\
+        \nSebanyak: {str(count)} √")
     """
     if BOTLOG:
         await purg.client.send_message(
             BOTLOG_CHATID,
-            "Kenangan sebanyak: " + str(count) + " berhasil di bersihkan.")
+            "Jumlah " + str(count) + " berhasil di bersihkan.")
     """
     await sleep(2)
     await done.delete()
@@ -59,13 +59,13 @@ async def purgeme(delme):
 
     smsg = await delme.client.send_message(
         delme.chat_id,
-        "`Menghapus Kenangan!` Sebanyak " + str(count) + " Sukses.",
+        "`Succes ._.)` Jumlah Pesan " + str(count) + " Sukses.",
     )
     """
     if BOTLOG:
         await delme.client.send_message(
             BOTLOG_CHATID,
-            "Berhasil menghapus " + str(count) + " kenangan.....")
+            "Berhasil menghapus " + str(count) + " Pesan.....")
     """
     await sleep(2)
     i = 1

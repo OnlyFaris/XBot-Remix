@@ -100,7 +100,7 @@ GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
 # Custom (forked) repo URL for updater.
 UPSTREAM_REPO_URL = os.environ.get(
     "UPSTREAM_REPO_URL",
-    "https://github.com/X-Newbie/XBot-Remix.git")
+    "https://github.com/OnlyFaris/XBot-Remix.git")
 UPSTREAM_REPO_BRANCH = os.environ.get(
     "UPSTREAM_REPO_BRANCH", "x-sql-extended")
 
@@ -163,7 +163,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "XBOT-REMIX")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "X-Lua Bot")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "4.0")
@@ -386,7 +386,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("I'm [XBOT-REMIX](https://github.com/X-Newbie/XBot-Remix) modules helper...\nplease make your own bot, don't use mine 😋")
+                await event.reply("I'm [OnlyFaris](https://github.com/OnlyFaris/XBot-Remix) modules helper...\nplease make your own bot, don't use mine 😋")
             else:
                 await event.reply(f"`Hey there {ALIVE_NAME}\n\nI work for you :)`")
 
@@ -400,7 +400,7 @@ with bot:
                 result = builder.article(
                     "Please Use Only With .help Command",
                     text="{}\nTotal loaded Modules: {}\n               \n🖥 **Main Menu** 🖥\n".format(
-                        "🔥XBOT-REMIX🔥 modules helper",
+                        "X-Lua  modules helper",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -408,22 +408,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "🔥XBOT-REMIX🔥 Helper",
-                    text="List of Modules",
+                    "X-Lua modules helper",
+                    text="List ↓↓↓↓↓ ._.)",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "XBOT-REMIX",
+                    "X-Lua Bot",
                     text="""You can convert your account to bot and use them. Remember, you can't manage someone else's bot! All installation details are explained from GitHub address below.""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "GitHub Repo",
-                                "https://github.com/X-Newbie/XBot-Remix"),
+                                "https://github.com/OnlyFaris/XBot-Remix"),
                             custom.Button.url(
                                 "Support",
-                                "www.pornhub.com")],
+                                "@AnimeChating")],
                     ],
                     link_preview=False,
                 )
