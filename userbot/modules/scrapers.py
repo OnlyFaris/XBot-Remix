@@ -54,7 +54,7 @@ from userbot.utils import chrome, googleimagesdownload, options, progress
 
 
 CARBONLANG = "auto"
-TTS_LANG = "ja"
+TTS_LANG = "id-ID-Wavenet-A"
 TRT_LANG = "id"
 TEMP_DOWNLOAD_DIRECTORY = "/root/userbot/.bin"
 
