@@ -14,7 +14,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"** Moshi-Moshi Hallo Semua Saya {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`**𝙋**`")
+    await typew.edit("`Hay :v`")
 # Owner @@AnimeChating
 
 
@@ -24,7 +24,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"** Moshi-Moshi Hallo Semua Saya {DEFAULTUSER}**")
     sleep(2)
-    await typew.edit("`**𝙋**`")
+    await typew.edit("`Hallo :3`")
 # Owner @@AnimeChating
 
 
